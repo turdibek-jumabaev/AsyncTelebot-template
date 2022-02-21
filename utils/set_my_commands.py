@@ -6,6 +6,8 @@ async def set_my_commands():
     await bot.set_my_commands([
         BotCommand('start', 'Botni qayta ishga tushirish'),
         BotCommand('help', 'Yordam'),
+        BotCommand('register', 'Ro\'yhatdan o\'tish'),
+        BotCommand('cancel', 'Ro\'yhatdan o\'tishni bekor qilish')
     ])
 
 asyncio.run(set_my_commands())
