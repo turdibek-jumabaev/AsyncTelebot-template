@@ -1,4 +1,4 @@
-from loader import bot
+from loader import bot, db
 from telebot.types import BotCommand
 import asyncio
 

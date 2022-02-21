@@ -1,6 +1,6 @@
+import asyncio
 from loader import bot
 from data.config import ADMINS
-import asyncio
 
 async def notify_admins(message):
     for admin in ADMINS:
